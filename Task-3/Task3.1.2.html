@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3.1.v2</title>
+  </head>
+  <body>
+    <h1>Basic HTML Form Elements</h1>
+    <form>
+      <fieldset>
+        <legend>personal information</legend>
+        <label for="name">Name(text):</label>
+        <input type="text" name="username:" id="name" />
+      </fieldset>
+    </form>
+    <hr />
+    <form action="post">
+      <fieldset>
+        <legend>contact & security</legend>
+        <label for="email">Email:</label>
+        <input type="email" name="email:" id="email" />
+        <br />
+        <br />
+        <label for="pass">password:</label>
+        <input type="password" name="password" id="pass" />
+      </fieldset>
+    </form>
+    <hr />
+    <form>
+      <fieldset>
+        <legend>perferences</legend>
+        <label>favorite color:</label>
+        <input type="color" name="color:" />
+      </fieldset>
+    </form>
+    <hr />
+    <form>
+      <fieldset>
+        <legend>Range & Options</legend>
+        <label>Volume(Range 0-100):</label>
+        <input type="range" name="range:" />
+        <br />
+        <br />
+        <label>select your favorite pet:</label>
+        <br />
+        <input type="radio" name="pet:" id="dog" />
+        <label for="dog">Dog</label>
+        <br />
+        <input type="radio" name="pet:" id="cat" />
+        <label for="cat">Cat</label>
+        <br />
+        <input type="radio" name="pet:" id="bird" />
+        <label for="bird">Bird</label>
+        <br />
+        <br />
+        <br />
+        <label>Insert (Check all that apply):</label>
+        <br />
+        <input type="checkbox" name="inserts:" id="coding" />
+        <label for="coding">Coding</label>
+        <br />
+        <input type="checkbox" name="inserts:" id="music" />
+        <label for="music">Music</label>
+        <br />
+        <input type="checkbox" name="inserts:" id="travel" />
+        <label for="travel">Travel</label>
+      </fieldset>
+    </form>
+    <hr />
+    <form>
+      <fieldset>
+        <legend>Selection</legend>
+        <label>Choose a Country:</label>
+        <select name="country">
+          <option value="EGY">Egypt</option>
+          <option value="GAZA">Gaza</option>
+          <option value="German">German</option>
+        </select>
+      </fieldset>
+    </form>
+  </body>
+</html>

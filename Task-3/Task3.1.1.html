@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3.1.v1</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Comments</legend>
+        <label name="Textarea">Your Comments (Textarea):</label>
+        <br>
+        <textarea cols="50" rows="5"></textarea>
+      </fieldset>
+    </form>
+    <hr>
+        <form>
+      <fieldset>
+        <legend>file upload</legend>
+        <label>upload a file:</label>
+        <input type="file" name="file:">
+      </fieldset>
+    </form>
+    <hr>
+        <form>
+      <fieldset>
+        <legend>Specialized Text Inputs</legend>
+        <label for="site">search this site</label>
+        <input type="text" id="site" name="site-name:">
+        <br>
+        <br>
+        <label for="url">your website URL:</label>
+        <input type="url" id="url" placeholder="https://example.com" name="url:">
+      </fieldset>
+    </form>
+    <hr>
+        <form>
+      <fieldset>
+        <legend>Date & Time</legend>
+        <label>Date:</label>
+        <input type="date" name="Date:">
+        <br>
+        <br>
+        <label>Month</label>
+        <input type="month" name="month:">
+        <br>
+        <br>
+        <label>Time</label>
+        <input type="time" name="time:">
+      </fieldset>
+    </form>
+    <hr>
+        <form>
+      <fieldset>
+        <legend>Datalist(Suggestions)</legend>
+        <label for="datalist">choose a Browser (with suggestions)</label>
+        <input list="Browser" name="Browser:">
+        <datalist id="Browser">
+          <option value="chrome">
+          <option value="brave">
+          <option value="opera">
+        </datalist>
+      </fieldset>
+      <hr>
+      <button type="submit">submit form</button>
+      <button type="reset">clear form</button>
+    </form>
+</html>
